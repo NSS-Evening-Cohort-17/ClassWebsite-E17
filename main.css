@@ -1,0 +1,106 @@
+.intro-heading {
+  border: 1px solid green;
+}
+
+.intro-container {
+  border: 1px solid orangered;
+}
+
+.intro-right {
+  border: 1px solid yellow;
+}
+
+.intro-photo {
+  width: 18rem;
+}
+
+.intro-left {
+  border: 1px solid purple;
+  padding: 2rem;
+}
+
+.cards {
+  width: 12rem;
+  height: 15rem;
+  padding-top: 2rem;
+}
+
+.cards-container {
+  border: 1px solid orange;
+  padding: 3rem;
+}
+
+.card-left,
+.card-middle,
+.card-right {
+  border: 1px solid blue;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.tech-title {
+  text-align: center;
+}
+
+.thanks-container {
+  border: 1px solid blue;
+  padding: 4rem;
+}
+
+.thanks-title {
+  text-align: center;
+  padding: 5rem;
+}
+
+.three-buttons {
+  padding: 2rem;
+}
+
+.modal-image-left {
+  width: 8rem;
+}
+
+.modal-ordered-list {
+  text-align: left;
+}
+
+.modal-job-title {
+  padding: 1rem;
+}
+
+/* Overlay */
+/* .card-images-1 {
+  position: relative;
+  width: 50%;
+}
+
+.image-1-A {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.card-images-1:hover .overlay {
+  opacity: 1;
+}
+
+.image-1-B {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
