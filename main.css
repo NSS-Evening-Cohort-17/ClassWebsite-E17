@@ -107,11 +107,10 @@ h1, h2, h6, #intro {
 
 
 .modal-body {
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 .container p {
-  color: green;
   margin: 0
 }
 
