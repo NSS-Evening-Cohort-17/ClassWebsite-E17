@@ -1,3 +1,8 @@
+h1, h2, h6, #intro {
+  padding-top: 60px;
+  margin-top: -50px;
+}
+
 .intro-heading {
   border: 1px solid green;
 }
@@ -40,7 +45,7 @@
   text-align: center;
 }
 
-.tech-title {
+.tech-title, .profile-title, .thanks-title {
   text-align: center;
 }
 
@@ -49,13 +54,14 @@
   padding: 4rem;
 }
 
-.thanks-title {
+/* .thanks-title {
   text-align: center;
   padding: 5rem;
-}
+} */
 
 .three-buttons {
   padding: 2rem;
+  justify-content: center;
 }
 
 .modal-image-left {
@@ -69,6 +75,61 @@
 .modal-job-title {
   padding: 1rem;
 }
+
+
+/* Experimental code for expanding modal - bm */
+
+.fa {
+  color: purple;
+  font-size: 1.75rem;
+}
+
+.nav-logo {
+  width: 50px;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
+.nav-button {
+  margin-right: auto;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.modal-body {
+  background-color: lightblue;
+}
+
+.container p {
+  color: green;
+  margin: 0
+}
+
+.modal-horizontal {
+  display: block;
+  width: 370px;
+  height: 270px;
+  margin: 0 auto;
+}
+
+.modal-vertical {
+  float: right;
+  background-color: black;
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
 
 /* Overlay */
 /* .card-images-1 {
