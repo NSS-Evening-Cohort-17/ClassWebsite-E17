@@ -1,3 +1,7 @@
+body {
+  
+}
+
 h1, h2, h6, #intro {
   padding-top: 60px;
   margin-top: -50px;
@@ -39,7 +43,15 @@ h1, h2, h6, #intro {
 .card-middle,
 .card-right {
   border: 1px solid blue;
+  padding-top: 1rem;
 }
+
+.card-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
 
 .card-body {
   text-align: center;
@@ -64,9 +76,9 @@ h1, h2, h6, #intro {
   justify-content: center;
 }
 
-.modal-image-left {
+/* .modal-image-left {
   width: 8rem;
-}
+} */
 
 .modal-ordered-list {
   text-align: left;
@@ -76,7 +88,10 @@ h1, h2, h6, #intro {
   padding: 1rem;
 }
 
-
+.modal-image-left {
+  max-width: 100%;
+  border-radius: 15px;
+}
 /* Experimental code for expanding modal - bm */
 
 .fa {
@@ -104,8 +119,6 @@ h1, h2, h6, #intro {
   width: 100%;
 }
 
-
-
 .modal-body {
   background-color: lightgray;
 }
@@ -128,7 +141,6 @@ h1, h2, h6, #intro {
   height: 500px;
   margin: 0 auto;
 }
-
 
 /* Overlay */
 /* .card-images-1 {
