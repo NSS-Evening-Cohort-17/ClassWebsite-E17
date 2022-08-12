@@ -1,18 +1,20 @@
 body {
   background: linear-gradient(180deg,rgba(0,2,5,1) 2%, rgba(8,21,42,1) 10%, rgba(19,49,94,1) 56%);
-    position: relative;
+  position: relative;
 } 
 
 .introtext {
   font-size: 1.25rem;
   color: whitesmoke;
   line-height: 3rem;
+
 }
 
+/* headings */
 h1, h2, h5, #intro #students {
   padding-top: 75px;
   margin-top: -50px;
-  color: whitesmoke
+  color: white;
 }
 
 h1 {
@@ -20,20 +22,15 @@ h1 {
   color: white;
 }
 
-.intro-photo {
-  width: 18rem;
+.tech-title, .profile-title, .thanks-title {
+  text-align: center;
 }
-
-.intro-left {
-  border: 1px solid purple;
-  padding: 2rem;
-}
-
+ 
+/* cards */
 .cards {
   width: 12rem;
   height: 15rem;
   padding-top: 2rem;
-
 }
 
 .cards-container {
@@ -43,23 +40,33 @@ h1 {
 .card-left,
 .card-middle,
 .card-right {
-  /* border: 1px solid blue; */
   background-color: lightgray;
   border-radius: .25rem;
   margin: 1rem;
   box-shadow: 2px 4px 10px black;
 }
 
+.card-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: .25rem;
+  padding-top: 20px;
+}
+
 .card-body {
   text-align: center;
 }
 
-.tech-title, .profile-title, .thanks-title {
-  text-align: center;
+
+/* thanks */
+.bottom-container {
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
 }
 
 .thanks-container {
-  /* border: 1px solid blue; */
   padding: 4rem;
 }
 
@@ -70,16 +77,10 @@ h1 {
 }
 
 .thanks-left, .thanks-right {
-    color: white;
+  color: white;
 }
 
-.bottom-container {
-  background-color: black;
-  width: 100%;
-  z-index: 10;
-  position: absolute;
-}
-
+/* buttons */
 .three-buttons {
   padding: 2rem;
   justify-content: space-around;
@@ -90,26 +91,51 @@ h1 {
   background-color: rgba(19,49,94,1)
 }
 
-.modal-image-left {
-  width: 8rem;
-}
-
-.modal-ordered-list {
-  text-align: left;
-}
-
-.modal-job-title {
-  padding: 1rem;
-}
-
-
-/* Experimental code for expanding modal - bm */
-
 .fa {
   color: white;
   font-size: 1.75rem;
 }
 
+/* modal */
+/* .modal-ordered-list {
+  text-align: left;
+} */
+
+.modal-job-title {
+  padding: 1rem;
+}
+
+.modal-image-left {
+  max-width: 100%;
+  border-radius: .15px;
+}
+
+.modal-body {
+  background-color: lightgray;
+}
+
+.container p {
+  margin: 0;
+  text-align: left;
+}
+
+.modal-horizontal {
+  display: block;
+  width: 370px;
+  height: 270px;
+  margin: 0 auto;
+}
+
+.modal-vertical {
+  float: right;
+  background-color: black;
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+/* navbar */
 .nav-logo {
   width: 50px;
   object-fit: contain;
@@ -132,28 +158,6 @@ h1 {
 
 
 
-.modal-body {
-  background-color: lightgray;
-}
-
-.container p {
-  margin: 0
-}
-
-.modal-horizontal {
-  display: block;
-  width: 370px;
-  height: 270px;
-  margin: 0 auto;
-}
-
-.modal-vertical {
-  float: right;
-  background-color: black;
-  width: 200px;
-  height: 500px;
-  margin: 0 auto;
-}
 
 .star1 {
   color: white;
@@ -465,6 +469,7 @@ h1 {
   }
 } */
 
+ 
 /* Overlay */
 /* .card-images-1 {
   position: relative;
