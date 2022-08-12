@@ -28,6 +28,10 @@ h1 {
   color: white;
 }
 
+h5 {
+  color: rgba(245,130,32,255);
+}
+
 .tech-title, .profile-title, .thanks-title {
   text-align: center;
 }
