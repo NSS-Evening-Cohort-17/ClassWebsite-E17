@@ -1,13 +1,28 @@
 body {
-  
+
+  background: linear-gradient(180deg,rgba(0,2,5,1) 2%, rgba(8,21,42,1) 10%, rgba(19,49,94,1) 56%);
+    position: relative;
+} 
+
+.introtext {
+  font-size: 1.25rem;
+  color: whitesmoke;
+  line-height: 3rem;
 }
 
-h1, h2, h6, #intro {
-  padding-top: 60px;
+h1, h2, h5, #intro #students {
+  padding-top: 75px;
   margin-top: -50px;
+  color: whitesmoke
 }
 
-.intro-heading {
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+
+/* .intro-heading {
   border: 1px solid green;
 }
 
@@ -17,7 +32,7 @@ h1, h2, h6, #intro {
 
 .intro-right {
   border: 1px solid yellow;
-}
+} */
 
 .intro-photo {
   width: 18rem;
@@ -32,18 +47,23 @@ h1, h2, h6, #intro {
   width: 12rem;
   height: 15rem;
   padding-top: 2rem;
+
 }
 
 .cards-container {
-  border: 1px solid orange;
-  padding: 3rem;
+  /* border: 1px solid orange; */
+  padding: .25rem;
 }
 
 .card-left,
 .card-middle,
 .card-right {
-  border: 1px solid blue;
-  padding-top: 1rem;
+  /* border: 1px solid blue; */
+  background-color: lightgray;
+  border-radius: .25rem;
+  margin: 1rem;
+  box-shadow: 2px 4px 10px black;
+
 }
 
 .card-photo {
@@ -62,18 +82,35 @@ h1, h2, h6, #intro {
 }
 
 .thanks-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 4rem;
 }
 
-/* .thanks-title {
+.thanks-title {
   text-align: center;
-  padding: 5rem;
-} */
+  margin-top: 0rem;
+  background-color: black;
+}
+
+.thanks-left, .thanks-right {
+    color: white;
+}
+
+.bottom-container {
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+}
 
 .three-buttons {
   padding: 2rem;
-  justify-content: center;
+  justify-content: space-around;
+  
+}
+ 
+.three-buttons a {
+  background-color: rgba(19,49,94,1)
 }
 
 /* .modal-image-left {
@@ -95,7 +132,7 @@ h1, h2, h6, #intro {
 /* Experimental code for expanding modal - bm */
 
 .fa {
-  color: purple;
+  color: white;
   font-size: 1.75rem;
 }
 
@@ -141,6 +178,318 @@ h1, h2, h6, #intro {
   height: 500px;
   margin: 0 auto;
 }
+
+
+.star1 {
+  color: white;
+  font-size:  1rem;
+  animation: blink 4s linear infinite;
+  position: fixed;
+  left: 2000px;
+  top: 700px;
+  z-index: -1;
+}
+
+.star2 {
+  color: pink;
+  font-size: 1rem;
+  animation: blink 4s linear infinite;
+  position: fixed;
+  left: 300px;
+  top: 100px;
+  z-index: -1;
+}
+
+.star3 {
+  color: white;
+  font-size: 1rem;
+  animation: blink 4s linear infinite;
+  position: fixed;
+  left: 2000px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.star4 {
+  color: white;
+  font-size: 1rem;
+  animation: blink 4s linear infinite;
+  position: fixed;
+  left: 1850px;
+  top: 450px;
+  z-index: -1;
+}
+
+.star5 {
+  color: white;
+  font-size: 1.5rem;
+  animation: blink1 5s linear infinite;
+  position: fixed;
+  left: 1800px;
+  top: 500px;
+  z-index: -1;
+}
+
+.star6 {
+  color: gray;
+  font-size: 2rem;
+  animation: blink 2s linear infinite;
+  position: fixed;
+  left: 1800px;
+  top: 800px;
+  z-index: -1;
+}
+
+.star7 {
+  color: yellow;
+  font-size: 1rem;
+  animation: blink 2s linear infinite;
+  position: fixed;
+  left: 2000px;
+  top: 100px;
+  z-index: -1;
+}
+
+.star8 {
+  color: white;
+  font-size: 1rem;
+  animation: blink1 5s linear infinite;
+  position: fixed;
+  left: 200px;
+  top: 167px;
+  z-index: -1;
+}
+
+.star9 {
+  color: white;
+  font-size: 1.5rem;
+  animation: blink 2s linear infinite;
+  position: fixed;
+  left: 2200px;
+  top: 600px;
+  z-index: -1;
+}
+
+.star10 {
+  color: gray;
+  font-size: 1em;
+  animation: blink 2s linear infinite;
+  position: fixed;
+  left: 2065px;
+  top: 400px;
+  z-index: -1;
+}
+
+.star11 {
+  color: white;
+  font-size: 2rem;
+  animation: blink2 4s linear infinite;
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  z-index: -1;
+}
+
+.star12 {
+  color: white;
+  font-size: 2rem;
+  animation: blink2 3s linear infinite;
+  position: fixed;
+  left: 150px;
+  top: 900px;
+  z-index: -1;
+}
+
+.star13 {
+  color: white;
+  font-size: 1rem;
+  animation: blink1 2s linear infinite;
+  position: fixed;
+  left: 350px;
+  top: 700px;
+  z-index: -1;
+}
+
+.star14 {
+  color: white;
+  font-size: 2rem;
+  animation: blink1 7s linear infinite;
+  position: fixed;
+  left: 300px;
+  top: 450px;
+  z-index: -1;
+}
+
+.star15 {
+  color: gold;
+  font-size: 1rem;
+  animation: blink1 7s linear infinite;
+  position: fixed;
+  left: 1500px;
+  top: 400px;
+  z-index: -1;
+}
+
+.star16 {
+  color: white;
+  font-size: 1rem;
+  animation: blink3 1s linear infinite;
+  position: fixed;
+  left: 100px;
+  top: 600px;
+  z-index: -1;
+}
+
+.star17 {
+  color: white;
+  font-size: .5rem;
+  animation: blink1 2s linear infinite;
+  position: fixed;
+  left: 333px;
+  top: 775px;
+  z-index: -1;
+}
+
+.star18 {
+  color: white;
+  font-size: 2rem;
+  animation: blink3 1s linear infinite;
+  position: fixed;
+  left: 700px;
+  top: 700px;
+  z-index: -1;
+}
+
+.star19 {
+  color: white;
+  font-size: 1rem;
+  animation: blink2 1s linear infinite;
+  position: fixed;
+  left: 700px;
+  top: 1250px;
+  z-index: -1;
+}
+
+.star20 {
+  color: white;
+  font-size: 1rem;
+  animation: blink3 6s linear infinite;
+  position: fixed;
+  left: 2250px;
+  top: 1250px;
+  z-index: -1;
+}
+
+.star21 {
+  color: white;
+  font-size: .5rem;
+  animation: blink1 1s linear infinite;
+  position: fixed;
+  left: 1800px;
+  top: 100px;
+  z-index: -1;
+}
+
+.star22 {
+  color: white;
+  font-size: 1rem;
+  animation: blink2 4s linear infinite;
+  position: fixed;
+  left: 400px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.star23 {
+  color: white;
+  font-size: 1rem;
+  animation: blink2 4s linear infinite;
+  position: fixed;
+  left: 400px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.star24 {
+  color: white;
+  font-size: 1rem;
+  animation: blink1 4s linear infinite;
+  position: fixed;
+  left: 392px;
+  top: 846;
+  z-index: -1;
+}
+
+.star25 {
+  color: white;
+  font-size: 1em;
+  animation: blink3 5s linear infinite;
+  position: fixed;
+  left: 2500px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.star26 {
+  color: white;
+  font-size: 1em;
+  animation: blink3 3s linear infinite;
+  position: fixed;
+  left: 2500px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.star27 {
+  color: white;
+  font-size: 1em;
+  animation: blink3 5s linear infinite;
+  position: fixed;
+  left: 2400px;
+  top: 900px;
+  z-index: -1;
+}
+
+.star28 {
+  color: white;
+  font-size: 2em;
+  animation: blink1 4s linear infinite;
+  position: fixed;
+  left: 2600px;
+  top: 400px;
+  z-index: -1;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink1 {
+  50% {
+    opacity: .25;
+  }
+}
+
+@keyframes blink2 {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes blink3 {
+  50% {
+    opacity: .7;
+  }
+}
+
+/* @keyframes blink4 {
+  50% {
+    opacity: 0;
+  }
+} */
+
 
 /* Overlay */
 /* .card-images-1 {
