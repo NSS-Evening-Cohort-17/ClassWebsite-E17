@@ -17,6 +17,12 @@ h1, h2, h5, #intro #students {
   color: white;
 }
 
+.introtext {
+  font-size: 1.25rem;
+  color: whitesmoke;
+  line-height: 3rem;
+}
+
 h1 {
   font-size: 4rem;
   color: white;
@@ -31,6 +37,7 @@ h1 {
   width: 12rem;
   height: 15rem;
   padding-top: 2rem;
+
 }
 
 .cards-container {
@@ -77,6 +84,10 @@ h1 {
 }
 
 .thanks-left, .thanks-right {
+    color: white;
+}
+
+.thanks-left, .thanks-right {
   color: white;
 }
 
@@ -112,6 +123,10 @@ h1 {
 
 .modal-body {
   background-color: lightgray;
+
+.fa {
+  color: white;
+  font-size: 1.75rem;
 }
 
 .container p {
@@ -469,7 +484,7 @@ h1 {
   }
 } */
 
- 
+
 /* Overlay */
 /* .card-images-1 {
   position: relative;
