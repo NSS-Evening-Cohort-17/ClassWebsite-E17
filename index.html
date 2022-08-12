@@ -29,10 +29,10 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-light sticky-top">
       <div class="container-fluid">
-        <img src="./Assets/NSSlogo1.png" class="nav-logo" alt="NSS logo" /> 
-        <a class="navbar-brand" href="#intro"
-          >Cohort E17</a
-        >
+        <!-- <img src="./Assets/NSSlogo1.png" class="nav-logo" alt="NSS logo" />  -->
+        <a class="navbar-brand" href="#intro">
+          <img src="./Assets/NSSlogo1.png" class="nav-logo" alt="NSS logo" />Cohort E17
+        </a>
         <div class="nav-buttons">
           <div class="nav-button">
             <button
@@ -51,7 +51,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#students"
+                  <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page"  href="#students"
                     >Student Profiles</a>
                 </li>
                 <li class="nav-item">
@@ -72,14 +75,15 @@
     <!-- Intro -->
 
 
-
+    <!-- <div class="background-start"> -->
     <div class="container intro-heading" id="intro">
-      <h6>Nashville Software School Software Development Cohort E17</h6>
-      <h1>The stars come out at night</h1>
-      This will be in the intro text/emojis/whatever before the students' cards.
-      BORDERS are only TEMPORARY to show where div border/container is.
+      
+      <h5>NSS Software Development Cohort E17</h5>
+      
+      <h1>Nashville's stars come out at night</h1>
+      <p class="introtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <div class="container intro-container d-flex">
+    <!-- <div class="container intro-container d-flex">
       <div class="container intro-left">
         <img
           src="./Assets/moonphoto.jpg"
@@ -95,14 +99,16 @@
         lucky enough to find love, remember it is there and don't throw it
         away." — Stephen Hawking
       </div>
-    </div>
-
+    </div> -->
+  <!-- </div> -->
 
 
     <!-- cards -->
     <div class="container tech-top-container" id="students">
     <h2 class="profile-title">Student profiles</h2>
-    <div class="container cards-container d-flex" id="students">
+
+
+    <div class="container cards-container d-flex">
       <div class="container card-left">
           <img
           src="./Assets/moonphoto.jpg"
@@ -435,7 +441,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
     <div class="container cards-container d-flex">
       <div class="container card-left">
         <img
@@ -1975,93 +1981,7 @@
           </div>
         </div>
       </div>
-      <div class="container card-middle">
-        <img
-          src="./Assets/moonphoto.jpg"
-          class="rounded mx-auto d-block cards"
-          alt="moon"
-        />
-        <div class="card-body" id="Ash">
-          <h4 class="card-title">Asher Styers </h4>
-          <h4>2000-2022</h4>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
-            blanditiis.
-          </p>
-          <a
-            href="#"
-            class="btn btn-dark"
-            data-toggle="modal"
-            data-target="#styersModal"
-            >See Profile</a
-          >
 
-          </div>
-
-          <!-- Modal within Card -->
-          <div class="modal fade" id="styersModal">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Asher Styers</h4>
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body d-flex">
-                  <div class="container left-modal">
-                    <img
-                      src="./Assets/ghost2icon.png"
-                      class="modal-image-left"
-                    />
-                    <h4 class="container modal-job-title">Job Title</h4>
-                    <div class="container personal-info">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Amet quo cupiditate facilis dolor quia laborum nam
-                      suscipit modi aliquid tempore necessitatibus, excepturi
-                      libero...
-                    </div>
-                  </div>
-                  <div class="container right-modal">
-                    <!-- <h4>Meet Asher</h4> -->
-                    <div class="container modal-ordered-list">
-                      <p>I can easily get overwhelmed with sad thoughts about such a bright light brought into this world. So much potential being extinguished before all the world could see. I want to think of Ash and reflect on the short special memories, and the dreams of what could be. - Duley Williams</p>
-
-                      <!-- <p>I didn't know much about Ash nor do I have a good memory of/with him but I can tell he was a good person to be around. - Glenn Dixon</p> -->
-
-                      <p>He was very sweet. Knowing him has left an imprint on my life. - Chaneice Jackson-Dunham</p>
-
-                      <!-- <p>A couple of the quotes that Chaneice posted were from me, wouldn't mind re-using if that's okay. - Michelle Caner</p> -->
-
-                      <p>I will always remember how quick he was to uplift anyone who was having a rough work day or struggling with a line of code. And his love of everyone's cats, of course. - Allison Osborne</p>
-
-                      <p>Ash brought his warm energy and often his cats to our cohort (or at least the Zoom screen). I remember most his kindness, and his love for felines, which spilled over into everything he did. One of the first group projects we worked on was a "bad website" -- we settled on a booking site for bad assassins. His "assassin" used specially trained cats to kill. Each cat was documented on the page (he added over 20 cat profiles) and a screeching cat played automatically on the page when you visited it. It was horrible! It was the best thing I'd ever seen! I miss him. He should still be here with us. - Turner Lynch</p>
-
-                      <p>I worked in a group with Ash for a project and he was such a lovely person and this was when we made the project as ugly as possible. I remember he made his whole entire page about cats, pictures of cats and just cats everywhere. He loved his cats! - Brianna Nelson</p>
-
-                      <p>You are a beautiful soul and you are always in my prayers. - Ruby Kaur</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
 
       <div class="container card-right">
         <img
@@ -2174,7 +2094,93 @@
     </div>
 
     <!-- Ash -->
-    
+    <div class=" card-middle">
+      <img
+        src="./Assets/moonphoto.jpg"
+        class="rounded mx-auto d-block cards"
+        alt="moon"
+      />
+      <div class="card-body" id="Ash">
+        <h4 class="card-title">Asher Styers </h4>
+        <h4>2000-2022</h4>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+          blanditiis.
+        </p>
+        <a
+          href="#"
+          class="btn btn-dark"
+          data-toggle="modal"
+          data-target="#styersModal"
+          >See Profile</a
+        >
+
+        </div>
+
+        <!-- Modal within Card -->
+        <div class="modal fade" id="styersModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Asher Styers</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body d-flex">
+                <div class="container left-modal">
+                  <img
+                    src="./Assets/ghost2icon.png"
+                    class="modal-image-left"
+                  />
+                  <h4 class="container modal-job-title">Job Title</h4>
+                  <div class="container personal-info">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet quo cupiditate facilis dolor quia laborum nam
+                    suscipit modi aliquid tempore necessitatibus, excepturi
+                    libero...
+                  </div>
+                </div>
+                <div class="container right-modal">
+                  <!-- <h4>Meet Asher</h4> -->
+                  <div class="container modal-ordered-list">
+                    <p>I can easily get overwhelmed with sad thoughts about such a bright light brought into this world. So much potential being extinguished before all the world could see. I want to think of Ash and reflect on the short special memories, and the dreams of what could be. - Duley Williams</p>
+
+                    <!-- <p>I didn't know much about Ash nor do I have a good memory of/with him but I can tell he was a good person to be around. - Glenn Dixon</p> -->
+
+                    <p>He was very sweet. Knowing him has left an imprint on my life. - Chaneice Jackson-Dunham</p>
+
+                    <!-- <p>A couple of the quotes that Chaneice posted were from me, wouldn't mind re-using if that's okay. - Michelle Caner</p> -->
+
+                    <p>I will always remember how quick he was to uplift anyone who was having a rough work day or struggling with a line of code. And his love of everyone's cats, of course. - Allison Osborne</p>
+
+                    <p>Ash brought his warm energy and often his cats to our cohort (or at least the Zoom screen). I remember most his kindness, and his love for felines, which spilled over into everything he did. One of the first group projects we worked on was a "bad website" -- we settled on a booking site for bad assassins. His "assassin" used specially trained cats to kill. Each cat was documented on the page (he added over 20 cat profiles) and a screeching cat played automatically on the page when you visited it. It was horrible! It was the best thing I'd ever seen! I miss him. He should still be here with us. - Turner Lynch</p>
+
+                    <p>I worked in a group with Ash for a project and he was such a lovely person and this was when we made the project as ugly as possible. I remember he made his whole entire page about cats, pictures of cats and just cats everywhere. He loved his cats! - Brianna Nelson</p>
+
+                    <p>You are a beautiful soul and you are always in my prayers. - Ruby Kaur</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
 
     <!-- technologies -->
 
@@ -2325,31 +2331,70 @@
         </div>
       </div>
     </div>
-
+    <p class="star1">.</p>
+    <p class="star2">.</p>
+    <p class="star3">.</p>
+    <p class="star4">.</p>
+    <p class="star5">.</p>
+    <p class="star6">.</p>
+    <p class="star7">.</p>
+    <p class="star8">.</p>
+    <p class="star9">.</p>
+    <p class="star10">.</p>
+    <p class="star11">.</p>
+    <p class="star12">.</p>
+    <p class="star13">.</p>
+    <p class="star14">.</p>
+    <p class="star15">.</p>
+    <p class="star16">.</p>
+    <p class="star17">.</p>
+    <p class="star18">.</p>
+    <p class="star19">.</p>
+    <p class="star20">.</p>
+    <p class="star21">.</p>
+    <p class="star22">.</p>
+    <p class="star23">.</p>
+    <p class="star24">.</p>
+    <p class="star25">.</p>
+    <p class="star26">.</p>
+    <p class="star27">.</p> 
+    <p class="star28">.</p>
     <!-- thanks -->
-    <div class="container" id="thankyou">
+    <!-- <div class="container" id="thankyou">
       <h2 class="thanks-title">Thank you</h2>
-      Thank you to everyone that helped us along this journey!
-    </div>
+    </div> -->
+    <div class="bottom-container">
+      <h2 class="thanks-title" id="thankyou">Thank you</h2>
     <div class="container thanks-container d-flex">
       <div class="container thanks-left">
-        <img
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <!-- <img
           src="./Assets/moonphoto.jpg"
           class="rounded mx-auto d-block intro-photo"
           alt="moon"
-        />
+        /> -->
       </div>
       <div class="container thanks-right">
-        <img
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <!-- <img
           src="./Assets/moonphoto.jpg"
           class="rounded mx-auto d-block intro-photo"
           alt="moon"
-        />
+        /> -->
+      </div>
       </div>
     </div>
 
     <!-- footer -->
-    <div class="container footer bottom-nav">
+    <!-- <div class="container footer bottom-nav">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -2361,7 +2406,11 @@
           <a class="nav-link" href="#">Link</a>
         </li>
       </ul>
-    </div>
+    </div> -->
+    <!-- <div >
+      <img class="skyline" src="Assets/skyline.png" />
+    </div> -->
+
 
     <script src="main.js"></script>
     <script
