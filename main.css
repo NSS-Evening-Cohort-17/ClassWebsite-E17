@@ -17,11 +17,32 @@ h1, h2, h5, #intro #students {
   color: white;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.new-container{
+  justify-content: space-between;
+  max-width: 1000px;
+  min-width: 500px;
+}
+
+
+.d-flex{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
 .introtext {
   font-size: 1.25rem;
-  color: whitesmoke;
-  line-height: 3rem;
+  color: white;
+  /* line-height: 3rem; */
 }
+
 
 h1 {
   font-size: 4rem;
@@ -41,11 +62,11 @@ h5 {
   width: 12rem;
   height: 15rem;
   padding-top: 2rem;
-
 }
 
 .cards-container {
   padding: .25rem;
+  /* background-color: red; */
 }
 
 .card-left,
@@ -55,6 +76,8 @@ h5 {
   border-radius: .25rem;
   margin: 1rem;
   box-shadow: 2px 4px 10px black;
+  max-width: 30%;
+  min-width: 333px;
 }
 
 .card-photo {
@@ -62,6 +85,13 @@ h5 {
   height: auto;
   border-radius: .25rem;
   padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#ash-card{
+  width: 303px;
+  height:auto;
+  margin-left: 15px;;
 }
 
 .card-body {
@@ -232,7 +262,7 @@ h5 {
 
 .star6 {
   color: gray;
-  font-size: 2rem;
+  font-size: .5rem;
   animation: blink 2s linear infinite;
   position: fixed;
   left: 1800px;
@@ -282,7 +312,7 @@ h5 {
 
 .star11 {
   color: white;
-  font-size: 2rem;
+  font-size: .5rem;
   animation: blink2 4s linear infinite;
   position: fixed;
   left: 100px;
@@ -292,7 +322,7 @@ h5 {
 
 .star12 {
   color: white;
-  font-size: 2rem;
+  font-size: .5rem;
   animation: blink2 3s linear infinite;
   position: fixed;
   left: 150px;
@@ -312,7 +342,7 @@ h5 {
 
 .star14 {
   color: white;
-  font-size: 2rem;
+  font-size: .5rem;
   animation: blink1 7s linear infinite;
   position: fixed;
   left: 300px;
@@ -352,7 +382,7 @@ h5 {
 
 .star18 {
   color: white;
-  font-size: 2rem;
+  font-size: .5rem;
   animation: blink3 1s linear infinite;
   position: fixed;
   left: 700px;
@@ -452,7 +482,7 @@ h5 {
 
 .star28 {
   color: white;
-  font-size: 2em;
+  font-size: .5em;
   animation: blink1 4s linear infinite;
   position: fixed;
   left: 2600px;
